@@ -1,7 +1,7 @@
 # git_ninja_tutorial
 
 This file contains a list of commonly used git commands. In order to use command prompt for git, run Git Bash.
-
+For further please see the video tutorials of this playlist https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR
 # Commands
 
 <b>Configuring author name</b><br>
