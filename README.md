@@ -58,3 +58,7 @@ git remote add origin url
 <b>Pulling branch</b><br>
 git pull url branchname
 <br>
+<b>Checking origin url</b><br>
+git remote -v
+git remote show origin
+<br>
