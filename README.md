@@ -1,19 +1,16 @@
 # git_ninja_tutorial
 
-This file contains a list of commonly used git commands.
+This file contains a list of commonly used git commands. In order to use command prompt for git, run Git Bash.
 
 # Commands
 
 <b>Configuring author name</b><br>
 git config -global user.name emmad<br>
-
 <b>Configuring author email</b><br>
 git config -global user.email emmad@github.com<br>
-
 <b>Creating a new file</b><br>
 touch index.html
 <br>
-
 <b>Opening a file in Atom IDE</b><br>
 Atom index.html	
 <br>
