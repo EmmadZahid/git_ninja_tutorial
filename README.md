@@ -2,6 +2,7 @@
 
 This file contains a list of commonly used git commands. In order to use command prompt for git, run Git Bash.
 For further please see the video tutorials of this playlist https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR
+For common mistakes: https://www.youtube.com/watch?v=FdZecVxzJbk
 # Commands
 
 <b>Configuring author name</b><br>
@@ -61,4 +62,35 @@ git pull url branchname
 <b>Checking origin url</b><br>
 git remote -v
 git remote show origin
+<br>
+<b>Checking Difference</b><br>
+git diff<br>
+git diff 12wsqw 34rf34r
+<br>
+<b>Removing the local changes- It will remove all the local changes in test4.txt</b><br>
+git checkout test4.text
+<br>
+<b>If you forgot to add files in previous commit</b><br>
+git commit --amend<br>
+after that type wq. Note that commit has will change in this case
+<br>
+<b>Stat of log</b><br>
+git log --stat
+<br>
+<b>If commit was accidently done in wrong branch</b><br>
+git checkout correctbranch<br>
+git cherry-pick 123qws12  //this is hash of the commit that was done in wrong branch
+<br>
+
+<b>Ref log: it shows all the commands that you have run</b><br>
+git reflog
+<br>
+
+<b>Want to revert any commit</b><br>
+git revert 1q2w123  //It will add one more commit on top that will completely undo all of that changes of 1q2w123
+<br>
+<b>Reset</b><br>
+git reset --soft 1231sqw    //It will remove the commit but will move those files to stage
+git reset 1231sqw           //It will remove the commit but files will be untracked
+git reset --hard 1231sqw    //It will remove the commit and all files
 <br>
