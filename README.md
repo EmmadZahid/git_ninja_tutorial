@@ -65,7 +65,7 @@ git remote -v
 git remote show origin
 <br>
 <b>Checking Difference</b><br>
-git diff<br>
+git diff   //To check changes before commiting<br>
 git diff 12wsqw 34rf34r
 <br>
 <b>Removing the local changes- It will remove all the local changes in test4.txt</b><br>
