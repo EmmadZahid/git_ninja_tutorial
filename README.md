@@ -95,3 +95,4 @@ git reset --soft 1231sqw    //It will remove the commit but will move those file
 git reset 1231sqw           //It will remove the commit but files will be untracked
 git reset --hard 1231sqw    //It will remove the commit and all files
 <br>
+git log --all --oneline --graph
