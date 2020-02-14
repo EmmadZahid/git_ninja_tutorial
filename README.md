@@ -96,3 +96,6 @@ git reset 1231sqw           //It will remove the commit but files will be untrac
 git reset --hard 1231sqw    //It will remove the commit and all files
 <br>
 git log --all --oneline --graph
+<br>
+<b>To see the file changes at specific commit</b>
+git show commit -- path
