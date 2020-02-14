@@ -98,4 +98,5 @@ git reset --hard 1231sqw    //It will remove the commit and all files
 git log --all --oneline --graph
 <br>
 <b>To see the file changes at specific commit</b>
+<br>
 git show commit -- path
