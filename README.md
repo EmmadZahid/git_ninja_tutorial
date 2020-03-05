@@ -100,3 +100,10 @@ git log --all --oneline --graph
 <b>To see the file changes at specific commit</b>
 <br>
 git show commit -- path
+<br>
+<b>To see the fetched commits</b>
+<br>git log --all<br>
+<b>To see the files changes in commit</b>
+<br>git show 43r34j3f384jr83j4r<br>
+<b>To see only the files in log</b>
+<br>git log --stat --all<br>
