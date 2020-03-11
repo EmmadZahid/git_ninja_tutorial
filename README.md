@@ -107,3 +107,7 @@ git show commit -- path
 <br>git show 43r34j3f384jr83j4r<br>
 <b>To see only the files in log</b>
 <br>git log --stat --all<br>
+<b>Tagging a commit </b>
+git tag <tagname><br>
+git push origin <tagname><br>
+<b>Deleting a tag</b>
