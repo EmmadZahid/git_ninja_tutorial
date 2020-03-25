@@ -111,3 +111,11 @@ git show commit -- path
 git tag <tagname><br>
 git push origin <tagname><br>
 <b>Deleting a tag</b>
+<br>
+  <b>Discarding unstagged files</b><br>
+  git checkout -- .
+  <br>
+  <b>Discarding untracked files</b><br>
+  git clean -df
+  <br>
+  
