@@ -117,5 +117,8 @@ git push origin <tagname><br>
   <br>
   <b>Discarding untracked files</b><br>
   git clean -df
+    <br>
+  <b>Cherry pick specific file</b><br>
+  git cherry-pick -n <commit>         It will not commit. Once done, remove the files which are not required
   <br>
   
