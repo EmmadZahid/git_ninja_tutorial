@@ -122,3 +122,35 @@ git push origin <tagname><br>
   git cherry-pick -n <commit>         It will not commit. Once done, remove the files which are not required
   <br>
   
+  <br>
+  <b>Stash save</b><br>
+  git stash save "message"
+  <br>
+  
+  <br>
+  <b>Stash list</b><br>
+  git stash list
+
+  <br>
+  <b>Stash apply</b><br>
+  git stash apply stash@{0} //it does not delete the stash
+  <br>
+  <b>Stash apply</b><br>
+  git stash pop //it delets the stash and put top most on code
+  <br>
+  <b>Stash drop(CAREFULLY)</b><br>
+  git stash drop stash@{0} //If you apply stash{0} and then want to revert you will do this command
+  <br> 
+  <br>
+  <b>Stash show</b><br>
+  git stash show
+  <br> 
+  <br>
+  <b>Stash show content</b><br>
+  git stash show -p
+  <br> 
+  <b>Stash show content of specific stash</b><br>
+  git stash show -p stash@{1}
+  <br> 
+  
+  
