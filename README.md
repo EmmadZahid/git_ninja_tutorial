@@ -45,8 +45,11 @@ git reset 123jsd12 --hard
 git branch feature-1
 git branch -a //All branches
 <br>
-<b>Delete branch</b><br>
-git branch -D feature-1
+<b>Delete branch (it will delete locally)</b><br>
+git branch -d feature-1
+<br>
+<b>Delete branch from origin</b><br>
+git push origin --delete feature-1
 <br>
 <b>Merge branch</b><br>
 git merge feature-a     //first checout master branch then run this to merge
