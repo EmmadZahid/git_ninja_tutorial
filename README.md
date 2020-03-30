@@ -113,7 +113,7 @@ git show commit -- path
 <b>Tagging a commit </b>
 <br>
 git tag -a v1.4 -m "message"<br>
-git push origin <tagname><br>
+git push origin tagname<br>
 <b>Deleting a tag</b>
 <br>
   <b>Discarding unstagged files</b><br>
