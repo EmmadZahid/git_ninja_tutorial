@@ -111,7 +111,8 @@ git show commit -- path
 <b>To see only the files in log</b>
 <br>git log --stat --all<br>
 <b>Tagging a commit </b>
-git tag <tagname><br>
+<br>
+git tag -a v1.4 -m "message"<br>
 git push origin <tagname><br>
 <b>Deleting a tag</b>
 <br>
