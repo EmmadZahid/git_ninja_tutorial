@@ -156,5 +156,8 @@ git push origin tagname<br>
   <b>Stash show content of specific stash</b><br>
   git stash show -p stash@{1}
   <br> 
-  
+  <b>Check changes of single file</b>
+  <br>
+  git log --follow --stat -p */myspace-function.js
+<br>
   
