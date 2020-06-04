@@ -30,7 +30,12 @@ git commit -m "message"
 <br>
 <b>Viewing log of repo</b><br>
 git log
-git log --oneline
+<br>
+git log --oneline (only commit message)
+<br>
+git log --name-status (for files and commit message
+<br>
+git log -p
 <br>
 <b>Checkout</b><br>
 git checkout 1we23asd
